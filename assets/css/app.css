@@ -1182,7 +1182,7 @@ h2 {
 h1 > span,
 h2 > span {
   padding: var(--space-xs);
-  line-height: 1.5em;
+  line-height: calc(2px + 3.15ex + 2px);
   background: var(--color-blue-gradient);
   box-decoration-break: clone;
   -webkit-background-clip: text;
