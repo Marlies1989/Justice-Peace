@@ -1643,6 +1643,7 @@ header {
     font-size: var(--step-4);
     font-family: var(--title-bold);
     align-self: flex-end;
+    cursor: pointer;
   }
   & input {
     padding: var(--space-xs);
