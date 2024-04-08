@@ -112,14 +112,14 @@ function checkScreenWidth() {
     }
 }
 
-// newsletter dialog 
+// newsletter dialogue 
 
 const newsletter = document.getElementById("newsletter");
 const closeNewsletter = document.querySelector(".close-newsletter");
 let newsletterCount = 0;
 
 document.addEventListener("mouseleave", (event) => {
-    if (event.clientY <= 0 && newsletterCount <= 2 ) {
+    if (event.clientY <= 0 && newsletterCount <= 0 ) {
       newsletter.showModal();
       newsletterCount++;
     }
